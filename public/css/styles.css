@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* 👉 Start Navbar */
+nav {
+    .coin {
+        color: #f8b400;
+        padding: 0.25rem 0.75rem;
+        border: 2px solid #f8b400;
+        border-radius: 100px;
+    }
+
+    .profile img {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+    }
+
+    .btn-register {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    .btn-login {
+        padding: 0.3rem 0.75rem;
+        color: #fff;
+        background: #007bff;
+        border-radius: 100px;
+        text-decoration: none;
+    }
+}
+/* 👉 End Navbar */
+
+/* 👉 Start Homepage */
+.card {
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .btn-like {
+        padding: 0.25rem 0.5rem;
+        border-radius: 100px;
+        background: transparent;
+        border: 2px solid var(--secondary);
+        color: var(--secondary);
+    }
+
+    .btn-like.active {
+        background: var(--primary);
+        border: 2px solid var(--primary);
+        color: #fff;
+    }
+}
+
+/* 👉 End Homepage */
